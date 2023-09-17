@@ -1,0 +1,414 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hotel</title>
+    <link rel="stylesheet" href="./hotel.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+    <link rel="icon" href="https://img.freepik.com/free-vector/flat-hotel-facade-background_23-2148156044.jpg?w=2000">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg bg-warning">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Hotels</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Stays</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Booking</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link disabled">Search hotels</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>  
+
+      <section id="home">
+        <div class="main">
+            <div class="container">
+                <div class="row">
+                 
+             <div class="col-6 mt-5 border border-3 p-5 text-light">
+                <form>
+                    <div class="mb-3">
+                     <h3> <label for="exampleInputEmail1" class="form-label">Email address</label></h3>
+                      <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                     <h2> <div id="emailHelp" class="form-text text-light">We'll never share your email with anyone else.</div></h2>
+                    </div>
+                    <div class="mb-3">
+                     <h3> <label for="exampleInputPassword1" class="form-label">Password</label></h3>
+                      <input type="password" class="form-control" id="exampleInputPassword1">
+                    </div>
+                    <div class="mb-3 form-check">
+                      <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                     <h3> <label class="form-check-label" for="exampleCheck1">Check me out</label> </h3>
+                    </div>
+                    <button type="submit" class="btn btn-danger">Submit</button>
+                  </form>
+                </div>   
+      
+        <div class="col-6">
+          <h1 class="text-center">𝓐𝓻𝓮 𝔂𝓸𝓾 𝓵𝓸𝓸𝓴𝓲𝓷𝓰 𝓯𝓸𝓻 𝓱𝓸𝓽𝓮𝓵𝓼? </h1>
+            <img src="https://cdni.iconscout.com/illustration/premium/thumb/login-page-4468581-3783954.png" alt="">
+        </div>
+    </div>
+  </div>
+
+  <footer class="bg-light text-center mt-4 text-lg-start">
+    <!-- Copyright -->
+    <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.2);">
+      © 2020 Copyright:
+      <a class="text-dark" href="https://mdbootstrap.com/">MDBootstrap.com</a>
+    </div>
+    <!-- Copyright -->
+  </footer>
+  <div class="container">
+    <div class="row">
+     <div class="col-6" style="background-color:black;">
+  <h1 class="text-center text-success ">*𝓢𝓽𝓪𝔂 𝓪𝓽 𝓸𝓾𝓻 𝓽𝓸𝓹 𝓾𝓷𝓲𝓺𝓾𝓮 𝓹𝓻𝓸𝓹𝓮𝓻𝓽𝓲𝓮𝓼*</h1>
+  <img src="https://www.usatoday.com/gcdn/-mm-/05b227ad5b8ad4e9dcb53af4f31d7fbdb7fa901b/c=0-64-2119-1259/local/-/media/USATODAY/USATODAY/2014/08/13/1407953244000-177513283.jpg" alt="" width="500px" height="650px">
+</div>
+  <div class="col-6 mt-5 border border-3 p-5" style="background-color: rgb(136, 170, 168);">
+  <form>
+    
+      <legend>Register Now</legend>
+      <div class="mb-3">
+        <label for="disabledTextInput" class="form-label">Name</label>
+        <input type="text" id="disabledTextInput" class="form-control" placeholder="Enter name">
+      </div>
+      <div class="mb-3">
+        <label for="disabledTextInput" class="form-label">Address</label>
+        <input type="text" id="disabledTextInput" class="form-control" placeholder="Current address">
+      </div>
+      <div class="mb-3">
+        <label for="disabledTextInput" class="form-label">Email/phone no</label>
+        <input type="text" id="disabledTextInput" class="form-control" placeholder="Enter email/phone no">
+      </div>
+      <div class="mb-3">
+        <label for="disabledTextInput" class="form-label">Password</label>
+        <input type="text" id="disabledTextInput" class="form-control" placeholder="Enter Password">
+      </div>
+      <div class="mb-3">
+        <label for="disabledTextInput" class="form-label"> RepeatPassword</label>
+        <input type="text" id="disabledTextInput" class="form-control" placeholder="Repeat Password">
+      </div>
+
+      <button type="submit" class="btn btn-success">Register</button>
+    
+</form>
+
+  </div>
+  <nav class="navbar navbar-expand-lg mt-4 text-center bg-warning text-light">
+    <div class="container-fluid text-light">
+      <a class="navbar-brand" href="#">Booking.com</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Stays</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Booking</a>
+          </li>
+         
+        </ul>
+      </div>
+    </div>
+    </div>
+  </nav> 
+
+<center>
+  <section id="insp" style="background-color: black;">
+  <h1 class="text-center text-dark"></h1><br>
+  <div class="container4">
+  <div class="row p-5">
+    <div class="card m-2" style="width: 18rem;">
+       <img src="https://www.tajhotels.com/content/dam/luxury/hotels/Taj_Lands_End_Mumbai/images/4x3/R&S_WOGLI_Exterior-Master.jpg"width="100%" height="200px"style="border-radius: 50%"  class="card-img-top" alt="..."></a>
+  
+  
+      <div class="card-body">
+        <h4 class="text-danger">Taj Hotels </h4>
+      
+        <p class="text-center text-dark">A curation of authentic living palaces, landmark hotels, resorts and safaris, Taj is the hallmark of iconic hospitality across the globe. The brand is recognised for its warm and intuitive service and is the undisputed leader  Indian hospitality.
+        </p>
+        <a href="https://www.tajhotels.com/en-in/taj-hotels/"class="btn btn-danger">Book Now</a>
+
+        
+  
+  
+      </div>
+    </div>
+<div class="card m-2" style="width: 18rem;">
+ <img src="https://assets.traveltriangle.com/blog/wp-content/uploads/2018/04/panaromic-getaway.jpg"width="100%" height="200px"style="border-radius: 50%"  class="card-img-top" alt="..."></a>
+<div class="card-body">
+<h4 class="text-danger">The Panoramic Gateway</h4>
+
+<p class="text-center text-dark ">When scenic mountains views are complimented by a dip in the heated rooftop pool, you know you’ve made the right choice in There are two separate pools so that recommended is the undisputed leader of india.
+</p>
+
+
+
+
+<a href="https://www.tajhotels.com/en-in/taj-hotels/"class="btn btn-danger
+">Book Now</a>
+
+</div>
+</div>
+<div class="card m-2" style="width: 18rem;">
+ <img src=" https://pix8.agoda.net/hotelImages/762/762713/762713_14102819150023019600.jpg?ca=3&ce=1&s=1024x768"width="100%" height="200px" style="border-radius: 50%" class="card-img-top" alt="..."></a>
+
+<div class="card-body">
+<h4 class="text-danger"> Chandy’s Windy Woods
+</h4>
+
+<p class="text-center text-dark ">When scenic mountains views are complimented by a dip in the heated rooftop pool, you know you’ve made the right choice in There are two separate pools so that recommended is the undisputed leader of india.
+</p>
+
+<a href="https://www.tajhotels.com/en-in/taj-hotels/"class="btn btn-danger">Book Now</a>
+
+
+
+</div>
+</div>
+
+<div class="card m-2" style="width: 18rem;">
+<img src="https://pix8.agoda.net/hotelImages/13623070/-1/6aeb9455e8b06a92f1abb0bfc6208886.jpg?ca=15&ce=1&s=1024x768" style="border-radius: 50%" class="card-img-top" alt="..."></a>
+<div class="card-body">
+<h4 class="text-danger">La Flora Spicewood
+</h4>
+
+
+</h5>
+<p class="text-center text-dark"> 
+  Enjoy all that Munnar has to offer with a stay at La Flora Spicewood .With its convenient location,
+   the hotel offers easy access to the city's must-see this property puts you close to attractions and interesting dining options.
+
+</p>
+<a href="https://www.tajhotels.com/en-in/taj-hotels/"class="btn btn-danger">Book Now</a>
+
+</div>
+</div>
+</div>
+</div>
+</section>
+</center><hr>
+
+<footer class="text-center text-white" style="background-color: #182835;border-radius: 12%;" >
+  <!-- Grid container -->
+  <div class="container p-4">
+    <!-- Section: Images -->
+    <section class="">
+      <div class="row">
+        <div class="col-lg-2 col-md-12 mb-4 mb-md-0">
+          
+          <div
+            class="bg-image hover-overlay ripple shadow-1-strong rounded"
+            data-ripple-color="light">
+          
+
+          <a href="https://www.agoda.com/en-in/country/malaysia.html">  <img
+              src="https://pix5.agoda.net/geo/country/198/3_198_malaysia_02.jpg?s=1920x"
+              
+          style="border-radius: 12%;"    class="w-100"
+            />
+          
+            
+              <div
+                class="mask"
+                style="background-color: rgba(251, 251, 251, 0.2);"
+              ></div>
+            </a>
+          </div>
+        </div>
+        <div class="col-lg-2 col-md-12 mb-4 mb-md-0">
+          <div
+            class="bg-image hover-overlay ripple shadow-1-strong rounded"
+            data-ripple-color="light"
+          >
+          <a href="https://www.agoda.com/en-in/country/united-arab-emirates.html"> <img
+              src="https://pix5.agoda.net/geo/country/64/3_64_united_arab_emirates_02.jpg?s=1920x"         style="border-radius: 12%;"
+              class="w-100"
+            />
+            
+              <div
+                class="mask"
+                style="background-color: rgba(251, 251, 251, 0.2);"
+              ></div>
+            </a>
+          </div>
+        </div>
+        <div class="col-lg-2 col-md-12 mb-4 mb-md-0">
+          <div
+            class="bg-image hover-overlay ripple shadow-1-strong rounded"
+            data-ripple-color="light"
+          >
+          <a href="https://www.agoda.com/en-in/country/philippines.html"> <img
+              src="https://pix5.agoda.net/geo/country/70/3_70_philippines_02.jpg?s=1920x"          style="border-radius: 12%;"
+              class="w-100"
+            />
+            
+              <div
+                class="mask"
+                style="background-color: rgba(251, 251, 251, 0.2);"
+              ></div>
+            </a>
+          </div>
+        </div>
+        <div class="col-lg-2 col-md-12 mb-4 mb-md-0">
+          <div
+            class="bg-image hover-overlay ripple shadow-1-strong rounded"
+            data-ripple-color="light"
+          >
+          <a href="https://www.agoda.com/en-in/country/thailand.html"> <img
+              src="https://pix5.agoda.net/geo/country/106/3_106_thailand_02.jpg?s=1920x"          style="border-radius: 12%;"
+              class="w-100"
+            />
+            
+              <div
+                class="mask"
+                style="background-color: rgba(251, 251, 251, 0.2);"
+              ></div>
+            </a>
+          </div>
+        </div>
+        <div class="col-lg-2 col-md-12 mb-4 mb-md-0">
+          <div
+            class="bg-image hover-overlay ripple shadow-1-strong rounded"
+            data-ripple-color="light"
+          >
+          <a href="https://www.agoda.com/en-in/country/united-states.html">   <img
+              src="https://pix5.agoda.net/geo/country/181/3_181_united_states_of_america_02.jpg?s=1920x"          style="border-radius: 12%;"
+              class="w-100"
+            />
+            
+              <div
+                class="mask"
+                style="background-color: rgba(251, 251, 251, 0.2);"
+              ></div>
+            </a>
+          </div>
+        </div>
+        <div class="col-lg-2 col-md-12 mb-4 mb-md-0">
+          <div
+            class="bg-image hover-overlay ripple shadow-1-strong rounded"
+            data-ripple-color="light"
+          >
+          <a href="https://www.agoda.com/en-in/country/singapore.html"> <img
+              src="https://pix5.agoda.net/geo/country/114/3_114_singapore_02.jpg?s=1920x"          style="border-radius: 12%;"
+              class="w-100"
+            />
+            
+              <div
+                class="mask"
+                style="background-color: rgba(251, 251, 251, 0.2);"
+              ></div>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Section: Images -->
+  </div>
+  <!-- Grid container -->
+
+  <!-- Copyright -->
+  <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+
+</footer><br><br>
+
+
+
+
+
+
+
+
+
+<footer class="bg-light text-center text-white">
+  <!-- Grid container -->
+  <div class="container p-4 pb-0">
+    <!-- Section: Social media -->
+    <section class="mb-4">
+      <!-- Facebook -->
+      <a
+        class="btn text-white btn-floating m-1"
+        style="background-color: #3b5998;"
+        href="#!"
+        role="button"
+        ><i class="fab fa-facebook-f"></i
+      ></a>
+
+      <!-- Twitter -->
+      <a
+        class="btn text-white btn-floating m-1"
+        style="background-color: #55acee;"
+        href="#!"
+        role="button"
+        ><i class="fab fa-twitter"></i
+      ></a>
+
+      <!-- Google -->
+      <a
+        class="btn text-white btn-floating m-1"
+        style="background-color: #dd4b39;"
+        href="#!"
+        role="button"
+        ><i class="fab fa-google"></i
+      ></a>
+
+      <!-- Instagram -->
+      <a
+        class="btn text-white btn-floating m-1"
+        style="background-color: #ac2bac;"
+        href="#!"
+        role="button"
+        ><i class="fab fa-instagram"></i
+      ></a>
+
+      <!-- Linkedin -->
+      <a
+        class="btn text-white btn-floating m-1"
+        style="background-color: #0082ca;"
+        href="#!"
+        role="button"
+        ><i class="fab fa-linkedin-in"></i
+      ></a>
+      <!-- Github -->
+      <a
+        class="btn text-white btn-floating m-1"
+        style="background-color: #333333;"
+        href="#!"
+        role="button"
+        ><i class="fab fa-github"></i
+      ></a>
+    </section>
+    <!-- Section: Social media -->
+  </div>
+  <!-- Grid container -->
+
+  <!-- Copyright -->
+  <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+    © 2020 Copyright:
+    <a class="text-white" href="https://mdbootstrap.com/">MDBootstrap.com</a>
+  </div>
+  <!-- Copyright -->
+</footer>
+</body>
+</html>
